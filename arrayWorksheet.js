@@ -62,4 +62,11 @@ const array = [10, 20, 30, 40, 50, 60];
 for (let i = 0; i < array.length; i += 2) {
     console.log(array[i]);
   }
+  let students = ["Alice", "Bob", "Charlie"];
+let subjects = ["Math", "Science"];
+for (let i = 0; i < students.length; i++) {
+    for (let j = 0; j < subjects.length; j++) {
+      console.log(`${students[i]} - ${subjects[j]}`);
+    }
+  }
   
